@@ -1,0 +1,33 @@
+name: SciPlexFlow
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - awscli
+  - pandas
+  - scipy
+  - matplotlib
+  - statsmodels
+  - pip
+  - STAR
+  - samtools
+  - bedtools
+  - cutadapt
+  - gffread
+  - datamash
+  - trim-galore
+  - gcc=11.4.0
+  - r-base=4.4.1
+  - r-dplyr
+  - r-scales
+  - r-ggplot2
+  - r-ggrepel
+  - r-reshape2
+  - r-stringr
+  - r-tidyr
+  - r-data.table
+  - r-matrix
+  - r-monocle3
